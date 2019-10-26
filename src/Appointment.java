@@ -4,7 +4,7 @@ import java.util.Date;
  * Superclass to the Training, Boarding, and Grooming subclasses. Appointment
  * contains the attributes of an appointment placed by the user.
  * 
- * @author 703174 Hans Cabrera
+ * @author Viktoriia Davydova (769217)
  *
  */
 public abstract class Appointment {
@@ -26,10 +26,4 @@ public abstract class Appointment {
 	 */
 	private Customer customer;
 
-	/**
-	 * Initializes the newly created Appointment object
-	 */
-	public Appointment() {
-
-	}
 }

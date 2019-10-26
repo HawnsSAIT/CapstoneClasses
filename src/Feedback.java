@@ -1,6 +1,7 @@
 
 /**
  * Contains the attributes and methods for a Feedback object.
+ * 
  * @author Viktoriia Davydova (769217)
  *
  */
@@ -16,13 +17,6 @@ public class Feedback {
 	 * more than 300 characters
 	 */
 	private String message;
-
-	/**
-	 * Initializes the newly created Feedback object
-	 */
-	public Feedback() {
-
-	}
 
 	/**
 	 * The method to submit the feedback to the website

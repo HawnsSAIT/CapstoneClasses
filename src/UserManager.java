@@ -14,13 +14,6 @@ public class UserManager {
 	private List userList;
 
 	/**
-	 * Initializes the newly created UserManager
-	 */
-	public UserManager() {
-
-	}
-
-	/**
 	 * The method to create the new User object in the system
 	 */
 	public void createUserAccount() {
