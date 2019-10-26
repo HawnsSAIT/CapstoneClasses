@@ -10,7 +10,7 @@ import java.util.List;
 public class UserManager {
 
 	/**
-	 * The list of all the users of the system. 
+	 * The list of all the users of the system.
 	 */
 	private List userList;
 	
