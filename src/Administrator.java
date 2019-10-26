@@ -4,7 +4,7 @@
  * @author Levon Rose (553185)
  * 
  */
-public class Administrator {
+public class Administrator extends User {
 	
 	/**
 	 * A userManager object.
