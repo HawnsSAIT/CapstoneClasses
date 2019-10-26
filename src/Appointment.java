@@ -1,4 +1,3 @@
-import java.beans.Customizer;
 import java.util.Date;
 
 /**
@@ -9,5 +8,7 @@ import java.util.Date;
  *
  */
 public abstract class Appointment {
+
+	
 	
 }
