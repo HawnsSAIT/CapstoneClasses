@@ -28,7 +28,7 @@ public abstract class User {
 	private String username;
 	
 	/**
-	 * The password for the 
+	 * The password for the user associated with their account. the password 
 	 */
 	private String password;
 	private String email;
