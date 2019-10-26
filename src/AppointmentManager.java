@@ -12,7 +12,7 @@ public class AppointmentManager {
 	ArrayList<Appointment> appointmentList;
 	
 	/**
-	 * Creates a new appointment object.
+	 * Creates a new appointment object. Cannot book new appointment if start date is earlier than current date.
 	 */
 	public void bookNewAppointment() {
 		
