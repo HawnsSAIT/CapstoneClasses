@@ -3,7 +3,7 @@ import java.util.Date;
 
 /**
  * Contains the attributes for a Pet object.
- * @author 703174
+ * @author 703174 Hans Cabrera
  *
  */
 public class Pet {
