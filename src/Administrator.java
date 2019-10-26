@@ -19,5 +19,5 @@ public class Administrator extends User {
 	/**
 	 * An acctManager object.
 	 */
-	private AccountManager acctManager;
+	private UserManager UserManager;
 }
