@@ -1,7 +1,7 @@
 import java.util.List;
 
 /**
- * Class description: Contains methods to manipulate the list of User objects
+ * Contains methods to manipulate the list of User objects
  * @author Viktoriia Davydova (769217)
  *
  */
@@ -12,6 +12,9 @@ public class UserManager {
 	 */
 	private List userList;
 	
+	/**
+	 * The method to create the new User object in the system
+	 */
 	public void createUserAccount() {
 		
 	}
