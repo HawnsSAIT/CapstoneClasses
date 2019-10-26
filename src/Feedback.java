@@ -1,7 +1,6 @@
 
 /**
  * Contains the attributes and methods for a Feedback object.
- * 
  * @author Viktoriia Davydova (769217)
  *
  */
