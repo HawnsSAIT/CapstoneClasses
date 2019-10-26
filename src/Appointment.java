@@ -26,7 +26,6 @@ public abstract class Appointment {
 	 */
 	private Customer customer;
 
-
 	/**
 	 * Initializes the newly created Appointment object
 	 */
