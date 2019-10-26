@@ -9,6 +9,28 @@ import java.util.Date;
  */
 public abstract class Appointment {
 
-	
-	
+	/**
+	 * The start date and time of appointment. Cannot be later than the appointment
+	 * end date and time.
+	 */
+	private Date aptStartTime;
+
+	/**
+	 * The end date and time of appointment. Cannot be earlier than the appointment
+	 * start date and time.
+	 */
+	private Date aptEndTime;
+
+	/**
+	 * The current customer
+	 */
+	private Customer customer;
+
+
+	/**
+	 * Initializes the newly created Appointment object
+	 */
+	public Appointment() {
+
+	}
 }
