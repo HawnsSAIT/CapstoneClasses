@@ -19,6 +19,9 @@ public class UserManager {
 		
 	}
 	
+	/**
+	 * The method to look through the list of the User objects 
+	 */
 	public void viewUsers() {
 		
 	}
