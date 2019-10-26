@@ -1,7 +1,7 @@
 import java.util.List;
 
 /**
- * Contains methods to manipulate the list of User objects
+ * Contains methods to manipulate the list of User objects. 
  * @author Viktoriia Davydova (769217)
  *
  */
