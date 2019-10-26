@@ -1,6 +1,11 @@
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * Contains the attributes and methods for a Pet object.
+ * @author 703174 Hans Cabrera
+ *
+ */
 public class Pet {
 	
 	/**
