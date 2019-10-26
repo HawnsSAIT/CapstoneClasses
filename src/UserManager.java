@@ -34,7 +34,7 @@ public class UserManager {
 	}
 	
 	/**
-	 * The method to edit the customer user information
+	 * The method to edit the customer User information
 	 */
 	public void editCustomer() {
 		
@@ -48,7 +48,7 @@ public class UserManager {
 	}
 	
 	/**
-	 * The method to edit the user information either administrator of customer
+	 * The method to edit the user information either administrator or customer
 	 */
 	public void editUser() {
 		
