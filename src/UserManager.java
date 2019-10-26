@@ -26,14 +26,23 @@ public class UserManager {
 		
 	}
 	
+	/**
+	 * The method to edit the customer user information
+	 */
 	public void editCustomer() {
 		
 	}
 	
+	/**
+	 * The method to disable the User object to prevent the user from using the system
+	 */
 	public void disableUser() {
 		
 	}
 	
+	/**
+	 * 
+	 */
 	public void editUser() {
 		
 	}
