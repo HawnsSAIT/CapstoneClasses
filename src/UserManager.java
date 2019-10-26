@@ -41,7 +41,7 @@ public class UserManager {
 	}
 	
 	/**
-	 * 
+	 * The method to edit the user information either administrator of customer
 	 */
 	public void editUser() {
 		
