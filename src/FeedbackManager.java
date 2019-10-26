@@ -2,7 +2,6 @@ import java.util.List;
 
 /**
  * The class to manipulate the list of the Feedback objects
- * 
  * @author Viktoriia Davydova (769217)
  *
  */
