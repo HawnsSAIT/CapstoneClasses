@@ -13,6 +13,13 @@ public class UserManager {
 	private List userList;
 	
 	/**
+	 * Initializes the newly created UserManager
+	 */
+	public UserManager() {
+		
+	}
+	
+	/**
 	 * The method to create the new User object in the system
 	 */
 	public void createUserAccount() {
@@ -20,7 +27,7 @@ public class UserManager {
 	}
 	
 	/**
-	 * The method to look through the list of the User objects
+	 * The method to look through the list of the User objects 
 	 */
 	public void viewUsers() {
 		
