@@ -18,7 +18,6 @@ public class Pet {
 	 */
 	private double weight;
 	
-	
 	/**
 	 * Dog's name. Cannot be null or contain non-alphabetical characters.
 	 */
