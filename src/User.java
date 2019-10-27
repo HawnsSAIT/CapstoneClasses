@@ -28,7 +28,9 @@ public abstract class User {
 	private String username;
 	
 	/**
-	 * The password for the user associated with their account. the password 
+	 * The password for the user associated with their account. The password must be at 
+	 * least 8 characters, contain numbers and characters and cannot be things like 
+	 * 'password' or '12345678'.
 	 */
 	private String password;
 	private String email;
