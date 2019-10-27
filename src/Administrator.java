@@ -7,17 +7,8 @@
 public class Administrator extends User {
 	
 	/**
-	 * A userManager object.
+	 * Specifier to to state if the administrator is the main administrator super
+	 * user. This gives them extra access not granted to other administrators.
 	 */
-	private UserManager userManager;
-	
-	/**
-	 * A reportManager object.
-	 */
-	private ReportManager reportManager;
-	
-	/**
-	 * An acctManager object.
-	 */
-	private UserManager UserManager;
+	private boolean isMainAdmin;
 }
