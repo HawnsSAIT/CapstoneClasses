@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 /**
- * Manages appointment objects.
+ * Allows a user to manage appointment objects.
  * @author 703174 Hans Cabrera
  *
  */
