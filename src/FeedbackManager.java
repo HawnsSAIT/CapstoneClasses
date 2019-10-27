@@ -21,7 +21,7 @@ public class FeedbackManager {
 	}
 
 	/**
-	 * The method to delete the Fedback
+	 * The method to delete the Feedback
 	 */
 	private void deleteFeedback() {
 
