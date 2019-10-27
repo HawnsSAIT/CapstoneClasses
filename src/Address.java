@@ -1,7 +1,5 @@
 /**
- * Class description: Class for storing address information.
- * Class for storing address information
- * Class for storing address information
+ * Class for storing address information.
  *
  * @author Carsen Johns (640195)
  *
