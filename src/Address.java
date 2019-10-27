@@ -33,7 +33,7 @@ public class Address {
 
 	/**
 	 * Return a concatenated string of each address component
-	 * 
+	 * @return the address
 	 */
 	public String getAddress() {
 		return "";
