@@ -11,7 +11,13 @@ public class Pet {
 	/**
 	 * Dog's ID number to identify it in the database. Cannot be null or negative.
 	 */
-	private String idNumber;
+	private int idNumber;
+	
+	/**
+	 * Dog's weight. Must be greater than zero.
+	 */
+	private double weight;
+	
 	
 	/**
 	 * Dog's name. Cannot be null or contain non-alphabetical characters.
