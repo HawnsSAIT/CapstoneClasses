@@ -1,34 +1,36 @@
 /**
- * class description: Class for storing address information
+ * Class description: Class for storing address information.
  *
  * @author Carsen Johns (640195)
  *
  */
 public class Address {
 	/**
-	 * street information
+	 * Street information.
 	 */
 	private String street;
+	
 	/**
-	 * postal code information
+	 * Postal code information. Must be valid postal code format.
 	 */
 	private String postal;
+	
 	/**
-	 * city information
+	 * City information.
 	 */
 	private String city;
+	
 	/**
-	 * province information
+	 * Province information.
 	 */
 	private String province;
 	/**
-	 * country information
+	 * Country information.
 	 */
 	private String country;
 
 	/**
-	 * Return a concatenated string of each address component
-	 * 
+	 * Return a concatenated string of each address component.
 	 */
 	public String getAddress() {
 		return "";

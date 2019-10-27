@@ -42,7 +42,7 @@ public abstract class User {
 	private String email;
 	
 	/**
-	 * 
+	 * The address of the user.
 	 */
 	private Address address;
 
