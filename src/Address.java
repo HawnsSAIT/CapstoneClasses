@@ -1,26 +1,31 @@
 /**
- * class description: Class for storing address information
+ * Class for storing address information
  *
  * @author Carsen Johns (640195)
  *
  */
 public class Address {
+	
 	/**
 	 * street information
 	 */
 	private String street;
+	
 	/**
 	 * postal code information
 	 */
 	private String postal;
+	
 	/**
 	 * city information
 	 */
 	private String city;
+	
 	/**
 	 * province information
 	 */
 	private String province;
+	
 	/**
 	 * country information
 	 */
@@ -32,5 +37,5 @@ public class Address {
 	 */
 	public String getAddress() {
 		return "";
-	};
+	}
 }
