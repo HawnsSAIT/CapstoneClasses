@@ -17,6 +17,4 @@ public class Customer extends User {
 	 */
 	private AppointmentManager apptManager;
 
-	
-	
 }
