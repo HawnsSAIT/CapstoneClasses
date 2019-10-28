@@ -7,32 +7,32 @@
 public class Address {
 	
 	/**
-	 * street information
+	 * Street name. Cannot be null and must be valid.
 	 */
 	private String street;
 	
 	/**
-	 * postal code information
+	 * Postal code. Cannot be null and must be valid.
 	 */
 	private String postal;
 	
 	/**
-	 * city information
+	 * City name. Cannot be null and must be valid.
 	 */
 	private String city;
 	
 	/**
-	 * province information
+	 * Province name. Cannot be null and must be valid.
 	 */
 	private String province;
 	
 	/**
-	 * country information
+	 * Country name. Cannot be null and must be valid.
 	 */
 	private String country;
 
 	/**
-	 * Return a concatenated string of each address component
+	 * Return a concatenated string of each address component.
 	 * @return the address
 	 */
 	public String getAddress() {
