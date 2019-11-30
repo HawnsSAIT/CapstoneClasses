@@ -9,7 +9,7 @@ import testimony.domain.Testimony;
  * @author Viktoriia Davydova (769217)
  *
  */
-public class FeedbackManager {
+public class TestimonyManager {
 
 	/**
 	 * The list to contain the Feedback objects
