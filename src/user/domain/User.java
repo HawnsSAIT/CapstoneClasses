@@ -1,3 +1,6 @@
+package user.domain;
+import user.address.Address;
+
 /**
  * Class Description: This class represents the user using the system
  * 

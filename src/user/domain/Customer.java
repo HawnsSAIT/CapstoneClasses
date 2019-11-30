@@ -1,4 +1,8 @@
+package user.domain;
 import java.util.ArrayList;
+
+import AppointmentManager;
+import Pet;
 
 /**
  * Class used to model a customer.

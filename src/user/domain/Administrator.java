@@ -1,3 +1,4 @@
+package user.domain;
 
 /**
  * Class used to model an administrator.

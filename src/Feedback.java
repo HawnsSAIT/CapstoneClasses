@@ -1,3 +1,4 @@
+import user.domain.Customer;
 
 /**
  * Contains the attributes and methods for a Feedback object.

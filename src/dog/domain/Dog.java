@@ -1,3 +1,4 @@
+package dog.domain;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -6,7 +7,7 @@ import java.util.Date;
  * @author 703174 Hans Cabrera
  *
  */
-public class Pet {
+public class Dog {
 	
 	/**
 	 * Dog's ID number to identify it in the database. Cannot be null or negative.

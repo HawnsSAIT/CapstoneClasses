@@ -1,5 +1,7 @@
 import java.util.Date;
 
+import user.domain.Customer;
+
 /**
  * Superclass to the Training, Boarding, and Grooming subclasses. Appointment
  * contains the attributes of an appointment placed by the user.

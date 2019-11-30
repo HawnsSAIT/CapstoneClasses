@@ -1,3 +1,4 @@
+package user.address;
 /**
  * Class for storing address information.
  *
