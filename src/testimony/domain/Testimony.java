@@ -1,3 +1,4 @@
+package testimony.domain;
 import user.domain.Customer;
 
 /**
@@ -6,7 +7,7 @@ import user.domain.Customer;
  * @author Viktoriia Davydova (769217)
  *
  */
-public class Feedback {
+public class Testimony {
 
 	/**
 	 * The Customer object under which the feedback will be sent.

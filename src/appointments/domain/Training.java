@@ -1,3 +1,4 @@
+package appointments.domain;
 import java.util.ArrayList;
 
 /**

@@ -1,3 +1,4 @@
+import appointments.domain.Appointment;
 
 /**
  * Class for handling the processing of payments.

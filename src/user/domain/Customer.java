@@ -1,8 +1,8 @@
 package user.domain;
 import java.util.ArrayList;
 
-import AppointmentManager;
-import Pet;
+import dog.domain.Dog;
+import managers.domain.AppointmentManager;
 
 /**
  * Class used to model a customer.
@@ -14,7 +14,7 @@ public class Customer extends User {
 	/**
 	 * Contains a list of all pets owned by the customer.
 	 */
-	private ArrayList<Pet> petList;
+	private ArrayList<Dog> petList;
 	
 	/**
 	 * User to book, edit, and cancel appointments.

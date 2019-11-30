@@ -1,3 +1,4 @@
+package managers.domain;
 import java.util.ArrayList;
 
 /**

@@ -1,4 +1,7 @@
+package managers.domain;
 import java.util.List;
+
+import testimony.domain.Testimony;
 
 /**
  * The class to manipulate the list of the Feedback objects
@@ -11,7 +14,7 @@ public class FeedbackManager {
 	/**
 	 * The list to contain the Feedback objects
 	 */
-	private List<Feedback> feedbackList;
+	private List<Testimony> feedbackList;
 
 	/**
 	 * The method to view the Feedback before delete it or post on the website

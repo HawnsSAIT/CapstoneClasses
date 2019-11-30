@@ -1,4 +1,7 @@
+package managers.domain;
 import java.util.ArrayList;
+
+import appointments.domain.Appointment;
 
 /**
  * Manages appointment objects.
