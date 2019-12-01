@@ -1,6 +1,7 @@
 package appointments.domain;
 import java.util.Date;
 
+import dog.domain.Dog;
 import user.domain.Customer;
 
 /**
@@ -14,24 +15,24 @@ public abstract class Appointment {
 
 	/**
 	 * The start date and time of appointment. Cannot be later than the appointment
-	 * end date and time.
+	 * end date and time. Cannot be less than the current date and time.
 	 */
 	private Date aptStartTime;
 
 	/**
 	 * The end date and time of appointment. Cannot be earlier than the appointment
-	 * start date and time. 
+	 * start date and time. Cannot be earlier than the current date and time.
 	 */
 	private Date aptEndTime;
 
 	/**
-	 * The current customer who booked the appointment.
+	 * The customer who booked the appointment. Cannot be null.
 	 */
 	private Customer customer;
 	
 	/**
-	 * The pet that is associated with the appointment.
+	 * The pet that is associated with the appointment. Cannot be null.
 	 */
-	private Pet pet; 
+	private Dog dog; 
 
 }
