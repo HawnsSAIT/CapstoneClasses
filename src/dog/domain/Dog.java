@@ -60,7 +60,7 @@ public class Dog {
 	/**
 	 * List of dog's vaccines.
 	 */
-	private ArrayList<String> vaccines;
+	private ArrayList<Vaccine> vaccines;
 
 	/**
 	 * If the dog is comfortable around strangers.
