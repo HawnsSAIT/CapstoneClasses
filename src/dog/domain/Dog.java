@@ -13,7 +13,7 @@ public class Dog {
 
 	/**
 	 * Dog's ID number to identify it in the database. Cannot be null or be a
-	 * negative value.
+	 * negative value. This number will automatically be assigned when a dog object i
 	 */
 	private int idNumber;
 
@@ -78,7 +78,7 @@ public class Dog {
 	private boolean smallDogFriendly;
 
 	/**
-	 * If the dog is friendly towards newborn dogs.
+	 * If the dog is friendly towards newborn (puppy) dogs.
 	 */
 	private boolean puppyFriendly;
 
