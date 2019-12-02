@@ -50,12 +50,12 @@ public class Dog {
 	/**
 	 * List of dog's medications.
 	 */
-	private ArrayList<String> medications;
+	private ArrayList<Medication> medications;
 
 	/**
 	 * List of dog's allergies
 	 */
-	private ArrayList<String> allergies;
+	private ArrayList<Allergy> allergies;
 
 	/**
 	 * List of dog's vaccines.
