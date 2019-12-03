@@ -1,4 +1,4 @@
-package servlets;
+package application.logic.servlets;
 
 public class PhotoServlet extends HttpServlet {
 

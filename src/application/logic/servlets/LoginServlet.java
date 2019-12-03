@@ -1,4 +1,4 @@
-package servlets;
+package application.logic.servlets;
 
 public class LoginServlet extends HttpServlet {
 

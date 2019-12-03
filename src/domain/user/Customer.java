@@ -1,8 +1,8 @@
 package domain.user;
 import java.util.ArrayList;
 
+import application.logic.managers.AppointmentManager;
 import domain.dog.Dog;
-import managers.domain.AppointmentManager;
 
 /**
  * Class used to model a customer.

@@ -1,4 +1,4 @@
-package managers.domain;
+package application.logic.managers;
 import java.util.ArrayList;
 
 /**
