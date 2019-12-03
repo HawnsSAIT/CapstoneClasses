@@ -1,7 +1,7 @@
 package managers.domain;
 import java.util.List;
 
-import testimony.domain.Testimony;
+import domain.testimony.Testimony;
 
 /**
  * The class to manipulate the list of the Feedback objects
