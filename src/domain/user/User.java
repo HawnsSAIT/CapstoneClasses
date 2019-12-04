@@ -22,7 +22,7 @@ public abstract class User {
 	 * underscores.
 	 */
 	private String username;
-	
+
 	/**
 	 * The password for the user associated with their account. The password must be
 	 * at least 8 characters, contain numbers and characters and cannot be things
@@ -30,7 +30,7 @@ public abstract class User {
 	 * unless they are inactive customers.
 	 */
 	private String password;
-	
+
 	/**
 	 * First name of the user. Cannot be null or contain numbers.
 	 */
@@ -42,35 +42,31 @@ public abstract class User {
 	private String lastName;
 
 	/**
-	 * The address of the user. Cannot be null and conforms to the rules of the user.address.Adress
-	 * class.
+	 * The address of the user. Cannot be null and conforms to the rules of the
+	 * user.address.Adress class.
 	 */
 	private Address address;
-	
+
 	/**
 	 * The email address for the user associated with the account. The email must be
 	 * a valid email following a correct email format.
 	 */
 	private String email;
-	
+
 	/**
-	 * 
+	 * The user's phone number. Cannot be null or contain alphabetical or symbol
+	 * characters. Must be 10 digits long, including area code.
 	 */
 	private String phoneNumber;
-	
+
 	/**
 	 * 
 	 */
 	private boolean isActive;
-	
+
 	/**
 	 * 
 	 */
 	private boolean isDisabled;
-	
-	/**
-	 * 
-	 */
-	private boolean isAdmin;
 
 }
