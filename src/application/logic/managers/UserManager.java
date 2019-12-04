@@ -1,5 +1,9 @@
 package application.logic.managers;
+
 import java.util.List;
+
+import database.brokers.UserBroker;
+import domain.user.User;
 
 /**
  * Contains methods to manipulate the list of User objects.
@@ -12,42 +16,72 @@ public class UserManager {
 	/**
 	 * The list of all the users of the system.
 	 */
-	private List userList;
+	private List<User> userList;
 
 	/**
-	 * The method to create the new User object in the system
+	 * 
 	 */
-	public void createUserAccount() {
+	private UserBroker broker;
 
+	/**
+	 * 
+	 * @param username
+	 * @return
+	 */
+	public User get(String username) {
+		return null;
 	}
 
 	/**
-	 * The method to look through the list of the User objects
+	 * 
+	 * @param username
+	 * @return
 	 */
-	public void viewUsers() {
-
+	public int delete(String username) {
+		return 0;
 	}
-
+	
 	/**
-	 * The method to edit the customer User information
+	 * 
+	 * @param user
+	 * @return
 	 */
-	public void editCustomer() {
-
+	public int insert(User user) {
+		return 0;
 	}
-
+	
 	/**
-	 * The method to disable the User object to prevent the user from using the
-	 * system
+	 * 
+	 * @param user
+	 * @return
 	 */
-	public void disableUser() {
-
+	public int update(User user) {
+		return 0;
 	}
-
+	
 	/**
-	 * The method to edit the user information either administrator or customer
+	 * 
+	 * @return
 	 */
-	public void editUser() {
-
+	public List<User> getAll() {
+		return null;
 	}
-
+	
+	/**
+	 * 
+	 * @param username
+	 * @param password
+	 * @return
+	 */
+	public User login(String username, String password) {
+		return null;
+	}
+	
+	/**
+	 * 
+	 * @param email
+	 */
+	public void sendRecovery(String email) {
+		
+	}
 }
