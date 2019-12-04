@@ -8,33 +8,33 @@ package domain.user.address;
 public class Address {
 	
 	/**
-	 * Street name. Cannot be null and must be valid.
+	 * Street name. Cannot be null.
 	 */
 	private String street;
 	
 	/**
-	 * Postal code. Cannot be null and must be valid.
+	 * Postal code. Cannot be null.
 	 */
 	private String postal;
 	
 	/**
-	 * City name. Cannot be null and must be valid.
+	 * City name. Cannot be null and must be a valid city name.
 	 */
 	private String city;
 	
 	/**
-	 * Province name. Cannot be null and must be valid.
+	 * Province name. Cannot be null and must be a valid province.
 	 */
 	private String province;
 	
 	/**
-	 * Country name. Cannot be null and must be valid.
+	 * Country name. Cannot be null and must be a valid country.
 	 */
 	private String country;
 
 	/**
-	 * Return a concatenated string of each address component.
-	 * @return the address
+	 * Return a concatenated string of each address component. Format: Street City, Province, Country, Postal.
+	 * @return the address in format: Street City, Province, Country, Postal.
 	 */
 	public String getAddress() {
 		return "";
