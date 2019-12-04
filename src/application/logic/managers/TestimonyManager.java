@@ -1,6 +1,7 @@
 package application.logic.managers;
 import java.util.List;
 
+import database.brokers.TestimonyBroker;
 import domain.testimony.Testimony;
 
 /**
@@ -17,23 +18,42 @@ public class TestimonyManager {
 	private List<Testimony> feedbackList;
 
 	/**
-	 * The method to view the Feedback before delete it or post on the website
+	 * 
 	 */
-	private void viewFeedback() {
-
-	}
-
+	private TestimonyBroker broker;
+	
 	/**
-	 * The method to delete the Fedback
+	 * 
+	 * @param testimony
+	 * @return
 	 */
-	private void deleteFeedback() {
-
+	public int insert(Testimony testimony) {
+		return 0;
 	}
-
+	
 	/**
-	 * The method to post the Feedback to the website
+	 * 
+	 * @param idNumber
+	 * @return
 	 */
-	private void postToWebsite() {
-
+	public int update(int idNumber) {
+		return 0;
+	}
+	
+	/**
+	 * 
+	 * @param idNumber
+	 * @return
+	 */
+	public int delete(int idNumber) {
+		return 0;
+	}
+	
+	/**
+	 * 
+	 * @return
+	 */
+	public List<Testimony> getAll() {
+		return null;
 	}
 }
