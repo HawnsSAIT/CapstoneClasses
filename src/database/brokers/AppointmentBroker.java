@@ -13,6 +13,7 @@ import domain.appointments.Appointment;
  * 
  */
 public class AppointmentBroker {
+	
 
 	/**
 	 * Database connection used for communicating with database.
