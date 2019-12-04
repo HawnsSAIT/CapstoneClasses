@@ -3,6 +3,7 @@ import java.util.ArrayList;
 
 import application.logic.managers.AppointmentManager;
 import domain.dog.Dog;
+import domain.veterinarian.Veterinarian;
 
 /**
  * Class used to model a customer.
@@ -12,34 +13,8 @@ import domain.dog.Dog;
 public class Customer extends User {
 
 	/**
-	 * Contains a list of all pets owned by the customer.
+	 * 
 	 */
-	private ArrayList<Dog> dogList;
-	
-	/**
-	 * Used to book, edit, and cancel appointments.
-	 */
-	private AppointmentManager apptManager;
-	
-	/**
-	 * Method to view pets in the customer's dogList.
-	 */
-	public void viewPets() {
-		
-	}
-	
-	/**
-	 * Method to add pets to the customer's dogList.
-	 */
-	public void addPets() {
-		
-	}
-	
-	/**
-	 * Method to remove pets from the customer's dogList.
-	 */
-	public void removePet() {
-		
-	}
+	private Veterinarian veterinarian;
 
 }

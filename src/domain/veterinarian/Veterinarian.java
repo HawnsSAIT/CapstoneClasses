@@ -9,6 +9,8 @@ public class Veterinarian {
 	
 	private String name;
 	
+	private String clinic;
+	
 	private String phoneNumber;
 	
 }
