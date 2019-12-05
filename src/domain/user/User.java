@@ -61,12 +61,14 @@ public abstract class User {
 	private String phoneNumber;
 
 	/**
-	 * TODO:
+	 * if the account is actively being used or not. If users want to use the service via phone and not the web-site, the admin
+	 * can still do her administration through an account by making one for them. The account is then active, but disabled and cant be used to log in.
 	 */
 	private boolean isActive;
 
 	/**
-	 * TODO:
+	 * If the user account is able to log in or not, essentially a "soft delete". If set to true the account cannot
+	 * login, and is active is also automatically set to false.
 	 */
 	private boolean isDisabled;
 
