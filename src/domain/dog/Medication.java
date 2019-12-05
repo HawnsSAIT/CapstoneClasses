@@ -1,7 +1,7 @@
 package domain.dog;
 
 /**
- * Medication for the Dog Object.
+ * Contains the Medication for the Dog Object.
  * 
  * @author 806547 Holly Harnack
  *
@@ -14,7 +14,8 @@ public class Medication {
 	private String medication;
 	
 	/**
-	 * The details of the medication. How and when to administer the medication.
+	 * The details of the medication. Information such as 
+	 * how and when to administer the medication, possible side effects.
 	 */
 	private String details;
 }
