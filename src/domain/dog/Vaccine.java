@@ -3,7 +3,7 @@ package domain.dog;
 import java.util.Date;
 
 /**
- * Contains Vaccine information for the Dog object.
+ * Contains the Vaccine for the Dog object.
  * 
  * @author 806547 Holly Harnack
  *
