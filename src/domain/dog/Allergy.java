@@ -1,7 +1,9 @@
 package domain.dog;
 
 /**
- * @author 806547
+ * Contains the allergy for a Dog Object.
+ * 
+ * @author 806547 Holly Harnack 
  *
  */
 public class Allergy {
