@@ -3,7 +3,7 @@ package database.brokers;
 import java.util.List;
 
 import database.connection.DatabaseConnection;
-import domain.appointments.Appointment;
+import domain.user.appointments.Appointment;
 
 /**
  * Broker class for interacting with appointments in the 

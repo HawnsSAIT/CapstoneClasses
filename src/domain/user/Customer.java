@@ -3,7 +3,7 @@ package domain.user;
 import java.util.ArrayList;
 
 import application.logic.managers.AppointmentManager;
-import domain.dog.Dog;
+import domain.user.dog.Dog;
 import domain.veterinarian.Veterinarian;
 
 /**

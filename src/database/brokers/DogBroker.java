@@ -3,7 +3,7 @@ package database.brokers;
 import java.util.List;
 
 import database.connection.DatabaseConnection;
-import domain.dog.Dog;
+import domain.user.dog.Dog;
 
 /**
  * Broker class for interacting with dogs in the 

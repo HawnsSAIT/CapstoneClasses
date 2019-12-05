@@ -1,4 +1,4 @@
-package domain.appointments;
+package domain.user.appointments;
 
 /**
  * Contains attributes for a boarding appointment

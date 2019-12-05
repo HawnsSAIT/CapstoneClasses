@@ -1,4 +1,4 @@
-package domain.appointments;
+package domain.user.appointments;
 import java.util.ArrayList;
 
 /**

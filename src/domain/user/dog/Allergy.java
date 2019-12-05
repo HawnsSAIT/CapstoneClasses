@@ -1,4 +1,4 @@
-package domain.dog;
+package domain.user.dog;
 
 /**
  * Contains the allergy for a Dog Object.

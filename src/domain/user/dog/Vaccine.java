@@ -1,4 +1,4 @@
-package domain.dog;
+package domain.user.dog;
 
 import java.util.Date;
 

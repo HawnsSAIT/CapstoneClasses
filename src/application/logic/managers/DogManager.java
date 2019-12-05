@@ -3,7 +3,7 @@ package application.logic.managers;
 import java.util.List;
 
 import database.brokers.DogBroker;
-import domain.dog.Dog;
+import domain.user.dog.Dog;
 
 /**
  * Manages Dog objects.

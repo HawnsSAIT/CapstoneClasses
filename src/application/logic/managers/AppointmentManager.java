@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import database.brokers.AppointmentBroker;
-import domain.appointments.Appointment;
+import domain.user.appointments.Appointment;
 
 /**
  * Manages appointment objects.
