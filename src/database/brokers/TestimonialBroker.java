@@ -1,5 +1,5 @@
 package database.brokers;
 
-public class TestimonyBroker {
+public class TestimonialBroker {
 
 }
