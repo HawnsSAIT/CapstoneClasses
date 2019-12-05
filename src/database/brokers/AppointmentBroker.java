@@ -36,8 +36,9 @@ public class AppointmentBroker {
 	 * 
 	 * @param appointment - appointment to be added to database.
 	 * @return 0 if insert was successful, 1 otherwise.
+	 * @throws NullPointerException if appointment is null.
 	 */
-	public int insert(Appointment appointment) {
+	public int insert(Appointment appointment) throws NullPointerException {
 		return 0;
 	}
 	
@@ -45,8 +46,9 @@ public class AppointmentBroker {
 	 * Method for updating information for appointment in database.
 	 * 
 	 * @return 0 if update was successful, 1 otherwise.
+	 * @throws NullPointerException if appointment is null.
 	 */
-	public int update(Appointment appointment) {
+	public int update(Appointment appointment) throws NullPointerException {
 		return 0;
 	}
 	
