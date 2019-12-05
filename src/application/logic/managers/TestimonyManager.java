@@ -27,7 +27,7 @@ public class TestimonyManager {
 	 * @param testimony
 	 * @return
 	 */
-	public int insert(Testimony testimony) {
+	public int insert(Testimonial testimony) {
 		return 0;
 	}
 	
@@ -53,7 +53,7 @@ public class TestimonyManager {
 	 * 
 	 * @return
 	 */
-	public List<Testimony> getAll() {
+	public List<Testimonial> getAll() {
 		return null;
 	}
 }
