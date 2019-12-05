@@ -35,8 +35,9 @@ public class DogBroker {
 	 * 
 	 * @param dog - dog to be added to database.
 	 * @return 0 if insert was successful, 1 otherwise.
+	 * @throws NullPointerException if dog is null.
 	 */
-	public int insert(Dog dog) {
+	public int insert(Dog dog) throws NullPointerException {
 		return 0;
 	}
 	
@@ -44,8 +45,9 @@ public class DogBroker {
 	 * Method for updating information for dog in database.
 	 * 
 	 * @return 0 if update was successful, 1 otherwise.
+	 * @throws NullPointerException if dog is null.
 	 */
-	public int update(Dog dog) {
+	public int update(Dog dog) throws NullPointerException {
 		return 0;
 	}
 	
