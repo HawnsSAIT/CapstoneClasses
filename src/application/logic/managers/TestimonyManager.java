@@ -2,7 +2,7 @@ package application.logic.managers;
 import java.util.List;
 
 import database.brokers.TestimonyBroker;
-import domain.testimony.Testimony;
+import domain.testimonial.Testimonial;
 
 /**
  * The class to manipulate the list of the Feedback objects
@@ -15,7 +15,7 @@ public class TestimonyManager {
 	/**
 	 * The list to contain the Feedback objects
 	 */
-	private List<Testimony> feedbackList;
+	private List<Testimonial> feedbackList;
 
 	/**
 	 * 
