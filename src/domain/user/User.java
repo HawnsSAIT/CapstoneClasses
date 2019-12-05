@@ -52,6 +52,7 @@ public abstract class User {
 	 * a valid email following a correct email format.
 	 */
 	private String email;
+	
 
 	/**
 	 * The user's phone number. Cannot be null or contain alphabetical or symbol
