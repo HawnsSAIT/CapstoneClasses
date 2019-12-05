@@ -49,7 +49,7 @@ public abstract class User {
 
 	/**
 	 * The email address for the user associated with the account. The email must be
-	 * a valid email following a correct email format.
+	 * a valid email following the correct email format.
 	 */
 	private String email;
 	
