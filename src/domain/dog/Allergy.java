@@ -14,7 +14,7 @@ public class Allergy {
 	private String allergy;
 	
 	/**
-	 * The details about this allergy and how to monitor it.
+	 * The details about this allergy and how to address it.
 	 */
 	private String details;
 
