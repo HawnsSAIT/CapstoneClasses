@@ -11,7 +11,7 @@ import domain.user.Customer;
 public class Testimonial {
 
 	/**
-	 * asfda
+	 * asfdaaaa
 	 */
 	private int idNumber;
 	
