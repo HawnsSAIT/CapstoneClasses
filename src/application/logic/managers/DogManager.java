@@ -57,6 +57,7 @@ public class DogManager {
 	/**
 	 * Method for updating information for dog in database.
 	 * 
+	 * @param dog - the dog to be updated.
 	 * @return 0 if update was successful, 1 otherwise.
 	 */
 	public int update(Dog dog) {

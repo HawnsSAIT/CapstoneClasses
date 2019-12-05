@@ -33,6 +33,7 @@ public class PhotoBroker {
 	/**
 	 * Method for updating information for photo in database.
 	 * 
+	 * @param photo - photo to be updated.
 	 * @return 0 if update was successful, 1 otherwise.
 	 * @throws NullPointerException if photo is null.
 	 */

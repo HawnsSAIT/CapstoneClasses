@@ -45,6 +45,7 @@ public class AppointmentBroker {
 	/**
 	 * Method for updating information for appointment in database.
 	 * 
+	 * @param appointment - appointment to be updated.
 	 * @return 0 if update was successful, 1 otherwise.
 	 * @throws NullPointerException if appointment is null.
 	 */
