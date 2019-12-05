@@ -60,12 +60,12 @@ public abstract class User {
 	private String phoneNumber;
 
 	/**
-	 * 
+	 * TODO:
 	 */
 	private boolean isActive;
 
 	/**
-	 * 
+	 * TODO:
 	 */
 	private boolean isDisabled;
 
