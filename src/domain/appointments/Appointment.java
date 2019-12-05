@@ -2,9 +2,6 @@ package domain.appointments;
 
 import java.util.Date;
 
-import domain.dog.Dog;
-import domain.user.Customer;
-
 /**
  * Superclass to the Training and Boarding subclasses. Appointment contains the
  * attributes of an appointment placed by the user.
